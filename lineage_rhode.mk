@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/rhode/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := droidx_rhode
+PRODUCT_NAME := lineage_rhode
 PRODUCT_DEVICE := rhode
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g52
@@ -28,5 +28,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=rhode_g \
     PRIVATE_BUILD_DESC="rhode_g-user 12 S1SRS32.38-132-11 25db02-2ac28c release-keys"
 
-# Droidx Props
-DROIDX_BUILD_TYPE := OFFICIAL

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/droidx_rhode.mk
+    $(LOCAL_DIR)/lineage_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    droidx_rhode-user \
-    droidx_rhode-userdebug \
-    droidx_rhode-eng
+    lineage_rhode-user \
+    lineage_rhode-userdebug \
+    lineage_rhode-eng
