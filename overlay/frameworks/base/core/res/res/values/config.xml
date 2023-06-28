@@ -225,4 +225,7 @@
     efficient in DOZE and/or 
     DOZE_SUSPEND states. --> 
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Default value for performant auth feature. -->
+    <bool name="config_performantAuthDefault">true</bool>
 </resources>
