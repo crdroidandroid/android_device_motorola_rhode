@@ -24,6 +24,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Charger
+PRODUCT_PACKAGES += \
+charger_res_images
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service
